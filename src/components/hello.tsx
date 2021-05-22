@@ -1,10 +1,6 @@
 import * as React from 'react';
-import './styles.css';
+import css from './hello.css';
 
-interface IProps {
-  text: string;
-}
-
-export const Hello: React.FC<IProps> = (prop) => {
-  return <div className="hello">{prop.text}</div>;
+export const Hello: React.FC = () => {
+  return <div className={css.box}>Hello</div>;
 };
