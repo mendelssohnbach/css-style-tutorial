@@ -1,5 +1,6 @@
 import * as React from 'react';
+import css from './hello.css';
 
 export const Hello: React.FC = () => {
-  return <div>Hello</div>;
+  return <div className={css.box}>Hello</div>;
 };
