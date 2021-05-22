@@ -16,9 +16,18 @@
 
 ## CSS Modules
 
-- webbapkcの定義が面倒
+- webpackの定義が面倒
 - CSS型定義が面倒
 
 原因不明のエラー発生!
 
 'Cannot find module './hello.css' or its corresponding type declarations. TS2307'
+
+## CSS in JS ライブラリ
+
+` styled-components` の利用にはライブラリパッケージを追加すること。
+
+```
+$ npm install --save-dev styled-components
+$ npm install --save-dev @types/styled-components
+```
