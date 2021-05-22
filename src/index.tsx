@@ -2,4 +2,4 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Hello } from './components/hello';
 
-ReactDOM.render(<Hello text="Hello" />, document.getElementById('root'));
+ReactDOM.render(<Hello />, document.getElementById('root'));
