@@ -13,3 +13,12 @@
 - スタイル定義が複数の変数に散らばる
 - パフォーマンスの低下する
 - 常にセキュリティの懸念がある
+
+## CSS Modules
+
+- webbapkcの定義が面倒
+- CSS型定義が面倒
+
+原因不明のエラー発生!
+
+'Cannot find module './hello.css' or its corresponding type declarations. TS2307'
